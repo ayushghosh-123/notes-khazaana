@@ -70,7 +70,7 @@ nav {
     text-align: center;
     text-decoration: none;
     display: flex;
-
+    flex-direction : row;
     font-size: 16px;
     border-radius: 5px;
     width: 3vw;
