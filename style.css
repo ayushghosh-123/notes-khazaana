@@ -1,0 +1,91 @@
+/* header */
+nav {
+    position: relative;
+    background-color: white;
+    /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
+    width: auto;
+    height: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo img{
+    height: 15vh;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+    justify-content: right;
+    padding: 30px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    
+}
+
+.right ul li span {
+    padding: 0 5px;;
+}
+
+
+/* main part */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    
+}
+
+@media screen and (max-width: 1325px){ 
+.grid {  
+        grid-template-columns: 1fr;  
+    }
+}
+
+/* item lang ka chis */
+.item-lang1{
+    font-weight: 700;
+    text-align: center;
+    padding:25px;
+    font-size: 28px;
+
+}
+.button {
+    background-color: rgb(183, 204, 0); 
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    margin-bottom:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 3vw;
+    box-shadow: nset 7px 8px 16px 0 rgba(66, 198, 88, 0.2), 0 6px 20px 0 rgba(201, 153, 50, 0.19);
+  }
+.item span{
+    /* display: flex; */
+    justify-items: center;
+    padding: 75px;
+}
+.item{
+    border: 4mm ridge rgba(211, 220, 50, .6);
+}
+.item img{
+    width: 120px;
+    padding: 0px 95px ;
+    margin: 0px 75px;
+    font-size: 10px;
+}
