@@ -47,7 +47,7 @@ nav {
     
 }
 
-@media screen and (max-width: 1325px){ 
+@media screen and (max-width: 1145px){ 
 .grid {  
         grid-template-columns: 1fr;  
     }
