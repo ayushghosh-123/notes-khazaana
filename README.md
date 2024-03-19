@@ -1,4 +1,4 @@
-https://ayushghosh-123.github.io/khaznna-/ t
+https://notes-khazaana.vercel.app/
 
 The above link you can upload yours notes regarding academic and get easy access to it. 
 Enjoy all the STUDENTS

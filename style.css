@@ -1,6 +1,8 @@
 /* header */
 nav {
-    position: relative;
+    position: flex;
+    /* flex-direction: row; */
+    gap:645px;
     background-color: white;
     /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
     width: auto;
@@ -16,11 +18,12 @@ nav {
 
 .logo img{
     height: 15vh;
+    position: relative;
 }
 
 .right ul {
     display: flex;
-    gap: 34px;
+    gap: 45px;
     justify-content: right;
     padding: 30px;
 }
@@ -47,12 +50,8 @@ nav {
     
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 1145px){ 
-=======
-@media screen and (max-width: 645px) { 
->>>>>>> f3dbf90 (added channel name)
-.grid {  
+@media screen and (max-width: 645px){
+.grid{  
         grid-template-columns: 1fr;  
     }
 }
@@ -93,3 +92,5 @@ nav {
     margin: 0px 75px;
     font-size: 10px;
 }
+
+/* footer part work */
