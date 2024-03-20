@@ -1,7 +1,7 @@
 /* header */
 nav {
     position: relative;
-    left: 30px;
+    left: 20px;
     /* flex-direction: row; */
     gap:645px;
     background-color: white;
@@ -96,9 +96,11 @@ nav {
 
 /* footer part work */
 .full{
-    background-color: #4fc3f700;
+    /* background-image: url(https://t3.ftcdn.net/jpg/05/00/76/76/360_F_500767658_mtWlGY0Nbz32SCyZvPfWyu4OxBpeYMjA.jpg); */
+    /* background-repeat: no-repeat; */
+    background-color: aqua;
     color:black;
-    padding: 145px;
+    padding: 205px;
 
 }
 .full h1{
@@ -113,10 +115,15 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
-    background-color: #4fc3f78f;
+}
+@media screen and (max-width:981px){
+   .footer1{
+    grid-template-columns: 1fr;
+   } 
 }
 
 .box{
+    background-color: aqua;
     color: black;
     padding: 220px;
 }
@@ -136,4 +143,7 @@ nav {
     width: 15px;
     height: 15px;
     background-color: #4fc3f78f;
+}
+.box p{
+    text-align: center;
 }
