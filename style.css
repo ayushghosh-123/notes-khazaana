@@ -3,7 +3,7 @@ nav {
     position: relative;
     left: 20px;
     /* flex-direction: row; */
-    gap:645px;
+    gap: 645px;
     background-color: white;
     /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
     width: auto;
@@ -17,7 +17,7 @@ nav {
 
 }
 
-.logo img{
+.logo img {
     height: 15vh;
     position: relative;
 }
@@ -35,11 +35,12 @@ nav {
     align-items: center;
     color: black;
     font-size: 30px;
-    
+
 }
 
 .right ul li span {
-    padding: 0 5px;;
+    padding: 0 5px;
+    ;
 }
 
 
@@ -48,29 +49,56 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 12px;
-    
+
 }
 
-@media screen and (max-width: 981px){
-.grid{  
-        grid-template-columns: 1fr;  
+@media screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer1 {
+        grid-template-columns: 1fr;
+    }
+
+    .right ul {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: right;
+        padding: 20px;
+    }
+    .logo img {
+        height: 15vh;
+        position: sticky;
+        display: flex;
+    }
+    nav {
+        position: relative;
+        left: 20px;
+        /* flex-direction: row; */
+        gap: 145px;
+        background-color: white;
+        /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
+        
     }
 }
 
 /* item lang ka chis */
-.item-lang1{
+.item-lang1 {
     font-weight: 700;
     text-align: center;
-    padding:25px;
+    padding: 25px;
     font-size: 28px;
 
 }
+
 .button {
-    background-color: rgb(183, 204, 0); 
+    background-color: rgb(183, 204, 0);
     border: none;
     color: white;
     padding: 10px 15px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-table;
@@ -78,51 +106,51 @@ nav {
     border-radius: 5px;
     width: 3vw;
     box-shadow: nset 7px 8px 16px 0 rgba(66, 198, 88, 0.2), 0 6px 20px 0 rgba(201, 153, 50, 0.19);
-  }
-.item span{
+}
+
+.item span {
     /* display: flex; */
     justify-items: center;
     padding: 75px;
 }
-.item{
+
+.item {
     border: 4mm ridge rgba(211, 220, 50, .6);
 }
-.item img{
+
+.item img {
     width: 120px;
-    padding: 0px 95px ;
+    padding: 0px 95px;
     margin: 0px 75px;
     font-size: 10px;
 }
 
 /* footer part work */
-.full{
+.full {
     /* background-image: url(https://t3.ftcdn.net/jpg/05/00/76/76/360_F_500767658_mtWlGY0Nbz32SCyZvPfWyu4OxBpeYMjA.jpg); */
     /* background-repeat: no-repeat; */
     background-color: #00ffff52;
-    color:black;
+    color: black;
     padding: 205px;
 
 }
-.full h1{
+
+.full h1 {
     text-align: center;
 }
-.full h3{
+
+.full h3 {
     text-align: center;
 }
 
 
-.footer1{
+.footer1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
-}
-@media screen and (max-width:981px){
-   .footer1{
-    grid-template-columns: 1fr;
-   } 
-}
 
-.box{
+
+.box {
     background-color: #00ffff52;
     color: black;
     padding: 220px;
@@ -135,8 +163,8 @@ nav {
 .social-icons a {
     display: flex;
     gap: 35px;
-    color : black;
-    
+    color: black;
+
 }
 
 .social-icons img {
@@ -144,6 +172,36 @@ nav {
     height: 15px;
     background-color: #4fc3f78f;
 }
-.box p{
+
+.box p {
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    
+    .right ul {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: right;
+        padding: 20px;
+    }
+    .logo img {
+        height: 15vh;
+        position: sticky;
+        display: flex;
+    }
+    nav {
+        position: relative;
+        left: 20px;
+        /* flex-direction: row; */
+        gap: 145px;
+        background-color: white;
+        /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
+        
+    }
 }
