@@ -52,39 +52,7 @@ nav {
 
 }
 
-@media screen and (max-width: 600px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
 
-    .footer1 {
-        grid-template-columns: 1fr;
-    }
-
-    .right ul {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-        justify-content: right;
-        padding: 20px;
-    }
-
-    .logo img {
-        height: 15vh;
-        position: sticky;
-        display: flex;
-    }
-
-    nav {
-        position: relative;
-        left: 20px;
-        /* flex-direction: row; */
-        gap: 145px;
-        background-color: white;
-        /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
-
-    }
-}
 
 /* item lang ka chis */
 .item-lang1 {
@@ -150,6 +118,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     
+
 }
 
 
@@ -158,6 +127,7 @@ nav {
         background-color: #00ffff52;
         color: black;
         padding: 220px;
+        display: inline-block;
         
     }
 
@@ -182,7 +152,7 @@ nav {
         text-align: center;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 459px) {
         .grid {
             grid-template-columns: 1fr;
         }
@@ -214,6 +184,6 @@ nav {
 
         
         .footer1 {
-            grid-template-columns: 1fr ;
+            grid-template-columns: 1fr;
         }
     }
