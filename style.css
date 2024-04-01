@@ -151,7 +151,7 @@ nav {
         text-align: center;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 760px) {
         .grid {
             grid-template-columns: 1fr;
             gap: 20px;
@@ -178,7 +178,7 @@ nav {
             position: relative;
             left: 20px;
             /* flex-direction: row; */
-            gap: 225px;
+            gap: 245px;
             background-color: white;
             /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
 
@@ -189,8 +189,7 @@ nav {
             grid-template-columns: 1fr;
         }
         .item{
-            width: 480px;
-            height: 65vh;
-            padding: 40px;
+            
+            padding: 50px;
         }
     }
