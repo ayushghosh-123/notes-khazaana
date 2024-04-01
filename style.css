@@ -193,6 +193,12 @@ nav {
             padding: 140px;
         }
         .box{
-            padding: 240px;
+            padding: 350px;
+        }
+        .button{
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 27px;
         }
     }
