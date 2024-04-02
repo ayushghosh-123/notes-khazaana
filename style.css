@@ -68,12 +68,13 @@ nav {
     background-color: rgb(183, 204, 0);
     border: none;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 20px;
     margin-bottom: 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-table;
-    font-size: 16px;
+    display: inline-flex;
+    gap: 15px;
+    font-size: 18px;
     border-radius: 5px;
     width: 3vw;
     box-shadow: nset 7px 8px 16px 0 rgba(66, 198, 88, 0.2), 0 6px 20px 0 rgba(201, 153, 50, 0.19);
@@ -86,6 +87,7 @@ nav {
 }
 
 .item {
+
     border: 4mm ridge rgba(211, 220, 50, .6);
 }
 
@@ -136,6 +138,9 @@ nav {
 
     .social-icons a {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
         gap: 35px;
         color: black;
 
@@ -151,7 +156,7 @@ nav {
         text-align: center;
     }
 
-    @media screen and (max-width: 820px) {
+    @media screen and (max-width: 600px) {
         .grid {
             grid-template-columns: 1fr;
             gap: 20px;
@@ -175,13 +180,14 @@ nav {
         }
 
         nav {
+            display: flex;
             position: relative;
             left: 20px;
             /* flex-direction: row; */
-            gap: 457px;
+            gap: 691px;
             background-color: white;
             /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
-
+            font-size: 35px;
         }
 
         
@@ -190,15 +196,37 @@ nav {
             
         }
         .item{
-            padding: 190px;
+            width:169vw;
+            height: 85vh;
         }
         .box{
-            padding: 350px;
+            padding: 352px;
+            width: 57vw;
+            height: 39vh;
         }
         .button{
             position: relative;
+            display:inline-flex;
             justify-content: center;
             align-items: center;
-            padding: 15px 20px;
+            font-size: 5vw;
+            width: 20vw;
+            flex-direction: column;
+            gap: 80px;
+            padding: 15px 50px;
         }
+        .item-lang1{
+            width: 145vw;
+            font-size: 38px;
+            font-weight: 300;
+        }
+        .item img{
+            width: 30vw;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 245px;
+        }
+        
     }
