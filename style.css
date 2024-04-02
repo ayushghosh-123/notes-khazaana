@@ -198,10 +198,11 @@ nav {
         .item{
             width:159vw;
             height: 85vh;
+            padding: 50px 50px;
         }
         .box{
-            padding: 273px;
-            width: 98vw;
+            padding: 234px;
+            width: 118vw;
             height: 120vh;
         }
         .button{
