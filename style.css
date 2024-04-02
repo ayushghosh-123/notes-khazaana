@@ -180,7 +180,7 @@ nav {
             position: relative;
             left: 20px;
             /* flex-direction: row; */
-            gap: 527px;
+            gap:  584px;
             background-color: white;
             /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
 
@@ -194,11 +194,11 @@ nav {
         .item{
             width:169vw;
             height: 85vh;
-            padding:74px 134px;
+            padding: 34px 134px;
         }
         .box{
             padding:  352px;
-            width: 120vw;
+            width: 80vw;
             height: 39vh;
         }
         .button{
@@ -210,7 +210,7 @@ nav {
             width: 20vw;
             flex-direction: column;
             gap: 40px;
-            padding: 15px 50px;
+            padding: 15px 20px;
         }
         .item-lang1{
             width: 125vw;
