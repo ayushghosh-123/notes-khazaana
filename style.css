@@ -3,7 +3,7 @@ nav {
     position: relative;
     left: 20px;
     /* flex-direction: row; */
-    gap: 645px;
+    gap: 64vw;
     background-color: white;
     /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
     width: auto;
@@ -105,7 +105,6 @@ nav {
     background-color: #00ffff52;
     color: black;
     padding: 205px;
-
 }
 
 .full h1 {
@@ -120,109 +119,121 @@ nav {
 .footer1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100%;
 }
 
 
 
-    .box {
-        background-color: #00ffff52;
-        color: black;
-        padding: 220px;
-        display: inline-block;
-        
+.box {
+    background-color: #00ffff52;
+    color: black;
+    padding: 220px;
+    display: inline-block;
+
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons a {
+    display: flex;
+    gap: 35px;
+    color: black;
+
+}
+
+.social-icons img {
+    width: 15px;
+    height: 15px;
+    background-color: #4fc3f78f;
+}
+
+.box p {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        position: relative;
+        display: grid;
+        padding: 14px 85px;
     }
 
-    .social-icons {
-        text-align: center;
-    }
 
-    .social-icons a {
+    .right ul {
         display: flex;
-        gap: 35px;
-        color: black;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: right;
+        padding: 20px;
+    }
+
+    .logo img {
+        height: 15vh;
+        position: sticky;
+        display: flex;
+    }
+
+    nav {
+        position: relative;
+        left: 20px;
+        /* flex-direction: row; */
+        gap: 175vw;;
+        background-color: white;
+        /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
 
     }
 
-    .social-icons img {
-        width: 15px;
-        height: 15px;
-        background-color: #4fc3f78f;
+
+    .footer1 {
+        grid-template-columns: 1fr;
+
     }
 
-    .box p {
-        text-align: center;
+    .item {
+        width: 100%;
+        height: 65vw;
+        padding: 14px 19px;
     }
 
-    @media (max-width: 850px) {
-        .grid {
-            grid-template-columns: 1fr;
-            gap: 20px;
-            position: relative;
-            display: inline-table;
-        }
-
-
-        .right ul {
-            display: flex;
-            flex-direction: row;
-            gap: 10px;
-            justify-content: right;
-            padding: 20px;
-        }
-
-        .logo img {
-            height: 15vh;
-            position: sticky;
-            display: flex;
-        }
-
-        nav {
-            position: relative;
-            left: 20px;
-            /* flex-direction: row; */
-            gap:  584px;
-            background-color: white;
-            /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
-
-        }
-
+    .box {
+        padding: 352px;
         
-        .footer1 {
-            grid-template-columns: 1fr;
-            
-        }
-        .item{
-            width: 199vw;
-            height: 65vh;
-            padding: 14px 164px;
-        }
-        .box{
-            padding:  352px;
-            width: 100vw;
-            height: 47vh;
-        }
-        .button{
-            position: relative;
-            display:inline-flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 5vw;
-            width: 20vw;
-            flex-direction: column;
-            gap: 40px;
-            padding: 15px 20px;
-        }
-        .item-lang1{
-            width: 125vw;
-            font-size: 34px;
-        }
-        .item img{
-            width: 28vw;
-            padding: 0px 124px;
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
+        height: 47vh;
     }
+
+    .button {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
+        width:  45vw;
+        flex-direction: column;
+        gap: 40px;
+        padding: 15px 20px;
+    }
+
+    .item-lang1 {
+        width: 144vw;
+        font-size: 34px;
+    }
+
+    .item img {
+        width: 28vw;
+        font-size: 20px;
+        padding: 0px 547px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .full {
+       width: 174vw;
+    }
+}
+
+
