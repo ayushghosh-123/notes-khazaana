@@ -195,7 +195,7 @@ nav {
     }
 
     .item {
-        width: 100%;
+        width: 85%;
         height: 65vh;
         padding: 14px 19px;
     }
@@ -226,9 +226,10 @@ nav {
 }
 
 .item-lang1 {
-    margin-left: 17vh;
+    margin-left: 28vh;
     padding: 23px 147px;
     font-size: 6vh;
+    width: 144vw;
 }
 
 .item img {
@@ -245,4 +246,3 @@ nav {
     width: 251vw;
 }
 
-}
