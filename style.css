@@ -159,7 +159,7 @@ nav {
         gap: 20px;
         position: relative;
         display: grid;
-        padding: 14px 85px;
+        padding: 14px 19px;
     }
 
 
@@ -227,7 +227,7 @@ nav {
     }
 
     .item img {
-        width: 28vw;
+        width: 40vw;
         font-size: 20px;
         padding: 0px 547px;
         position: relative;
@@ -236,7 +236,7 @@ nav {
         align-items: center;
     }
     .full {
-       width: 184vw;
+       width:  182vw;;
     }
     
 }
