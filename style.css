@@ -206,12 +206,13 @@ nav {
     }
 
     .button {
+        margin-left: 17px;
         position: relative;
         display: inline-flex;
         justify-content: center;
         align-items: center;
         font-size: 5vw;
-        width:  45vw;
+        width: 45vw;
         flex-direction: column;
         gap: 40px;
         padding: 15px 20px;
@@ -222,12 +223,13 @@ nav {
         font-size: 34px;
     }
     .item-lang1{
-       padding:  23px 147px;
-       font-size: 58px;
+        margin-left: 91px;
+        padding: 23px 147px;
+        font-size: 45px;
     }
 
     .item img {
-        width: 40vw;
+        width: 48vw;
         font-size: 20px;
         padding: 0px 547px;
         position: relative;
