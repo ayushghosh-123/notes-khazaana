@@ -223,9 +223,9 @@ nav {
         font-size: 34px;
     }
     .item-lang1{
-        margin-left:  133px;
+        margin-left:  29vh;
         padding: 23px 147px;
-        font-size: 41px;
+        font-size: 20vh;
     }
 
     .item img {
@@ -238,7 +238,7 @@ nav {
         align-items: center;
     }
     .full {
-       width:  182vw;;
+       width:  251vw;
     }
     
 }
