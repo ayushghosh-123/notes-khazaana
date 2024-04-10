@@ -121,9 +121,8 @@ nav {
 
 
 .footer1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width : 100%
+    display: flex;
+    
 }
 
 
@@ -196,13 +195,13 @@ nav {
 
 
     .footer1 {
-        grid-template-columns: 1fr;
+        ;
 
     }
 
     .item {
-        width: 85%;
-        height: 74vh;
+        width: 83%;
+        height: 82vh;
         padding: 14px 19px;
     }
 
@@ -229,7 +228,7 @@ nav {
 
     .item-lang1{
         margin-left:  71vh;
-        padding: 23px 147px;
+        padding: 23px 186px;
         font-size: 5vh;
         width: 164vw;
         font-size: 46px;
