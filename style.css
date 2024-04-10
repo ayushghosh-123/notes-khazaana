@@ -188,7 +188,7 @@ nav {
         position: relative;
         left: 20px;
         /* flex-direction: row; */
-        gap: 283vw;;
+        gap: 286vw;;
         background-color: white;
         /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
 
@@ -201,8 +201,8 @@ nav {
     }
 
     .item {
-        width: 90%;
-        height: 65vh;
+        width: 85%;
+        height: 74vh;
         padding: 14px 19px;
     }
 
@@ -231,8 +231,8 @@ nav {
         margin-left:  71vh;
         padding: 23px 147px;
         font-size: 5vh;
-        width: 144vw;
-        font-size: 57px;
+        width: 164vw;
+        font-size: 46px;
     }
 
     .item img {
