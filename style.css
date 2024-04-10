@@ -34,7 +34,7 @@ nav {
     display: flex;
     align-items: center;
     color: black;
-    font-size: 30px;
+    font-size: 86px;
 
 }
 
@@ -49,6 +49,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    height:64vw;
 
 }
 
@@ -59,24 +60,27 @@ nav {
 .item-lang1 {
     font-weight: 700;
     text-align: center;
-    padding: 25px;
-    font-size: 28px;
-
+    padding: 55px;
+    font-size: 109px;
 }
 
 .button {
     background-color: rgb(183, 204, 0);
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 30px;
     margin-bottom: 10px;
     text-align: center;
     text-decoration: none;
+    align-items: center;
+    
     display: inline-flex;
+    margin-left: 2vw ;
     gap: 15px;
-    font-size: 18px;
-    border-radius: 5px;
-    width: 3vw;
+    font-size: 55px;
+    border-radius: 7px;
+    width: 5vw;
+    height: 1vw;
     box-shadow: nset 7px 8px 16px 0 rgba(66, 198, 88, 0.2), 0 6px 20px 0 rgba(201, 153, 50, 0.19);
 }
 
@@ -88,23 +92,23 @@ nav {
 
 .item {
 
-    border: 4mm ridge rgba(211, 220, 50, .6);
+    border: 9mm ridge rgba(211, 220, 50, .6);
 }
 
 .item img {
-    width: 120px;
-    padding: 0px 95px;
-    margin: 0px 75px;
-    font-size: 10px;
+    margin: 45px 395px;
+    width: 11vw;
+    padding: 6px 242px;
 }
 
 /* footer part work */
 .full {
     /* background-image: url(https://t3.ftcdn.net/jpg/05/00/76/76/360_F_500767658_mtWlGY0Nbz32SCyZvPfWyu4OxBpeYMjA.jpg); */
     /* background-repeat: no-repeat; */
-    background-color: #00ffff52;
+    /* background-color: #00ffff52; */
     color: black;
     padding: 205px;
+    font-size: 45px;
 }
 
 .full h1 {
@@ -119,34 +123,37 @@ nav {
 .footer1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
+    width : 100%
 }
 
 
 
 .box {
-    background-color: #00ffff52;
+    /* background-color: #00ffff52; */
     color: black;
     padding: 220px;
     display: inline-block;
-
+    font-size: 66px;
 }
 
 .social-icons {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    /* font-size: 45px; */
 }
 
 .social-icons a {
     display: flex;
-    gap: 35px;
+    gap: 15px;
     color: black;
 
 }
 
 .social-icons img {
-    width: 15px;
-    height: 15px;
-    background-color: #4fc3f78f;
+    width: 76px;
+    height: 64px;
+    /* background-color: #4fc3f78f; */
 }
 
 .box p {
@@ -181,8 +188,7 @@ nav {
         position: relative;
         left: 20px;
         /* flex-direction: row; */
-        gap: 175vw;
-        ;
+        gap: 283vw;;
         background-color: white;
         /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
 
@@ -195,54 +201,54 @@ nav {
     }
 
     .item {
-        width: 85%;
+        width: 90%;
         height: 65vh;
         padding: 14px 19px;
     }
-}
 
-.box {
-    padding: 352px;
+    .box {
+        padding: 352px;
+        
+        height: 47vh;
+    }
 
-    height: 47vh;
-}
+    .button {
+        height: 15vw;
+        margin-left: 90px;
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17vw;
+        width: 70vw;
+        flex-direction: column;
+        gap: 40px;
+        padding: 15px 20px;
+        margin-left: 237px;
+    }
 
-.button {
-    margin-left: 90px;
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 5vw;
-    width: 45vw;
-    flex-direction: column;
-    gap: 40px;
-    padding: 15px 20px;
-}
+    .item-lang1{
+        margin-left:  71vh;
+        padding: 23px 147px;
+        font-size: 5vh;
+        width: 144vw;
+        font-size: 57px;
+    }
 
-.item-lang1 {
-    width: 144vw;
-    font-size: 34px;
-}
+    .item img {
+        margin-left: 488px;
+        width: 48vw;
+        font-size: 20px;
+        padding: 0px 547px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .full {
+       width:  251vw;
+    }
+}   
 
-.item-lang1 {
-    margin-left: 28vh;
-    padding: 23px 147px;
-    font-size: 6vh;
-    width: 144vw;
-}
 
-.item img {
-    width: 50vw;
-    font-size: 20px;
-    padding: 0px 452px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.full {
-    width: 251vw;
-}
 
