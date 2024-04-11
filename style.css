@@ -3,7 +3,7 @@ nav {
     position: relative;
     left: 20px;
     /* flex-direction: row; */
-    gap: 64vw;
+    gap: 93vw;
     background-color: white;
     /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
     width: auto;
@@ -49,7 +49,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    height:64vw;
+    height: 64vw;
 
 }
 
@@ -61,44 +61,45 @@ nav {
     font-weight: 700;
     text-align: center;
     padding: 55px;
-    font-size: 109px;
+    font-size: 53px;
 }
 
 .button {
     background-color: rgb(183, 204, 0);
     border: none;
     color: white;
-    padding: 10px 30px;
+    padding: 10px 144px;
     margin-bottom: 10px;
     text-align: center;
     text-decoration: none;
     align-items: center;
-    
+
     display: inline-flex;
-    margin-left: 2vw ;
+    margin-left: 2vw;
     gap: 15px;
-    font-size: 55px;
+    font-size: 71px;
     border-radius: 7px;
     width: 5vw;
-    height: 1vw;
+    height: 2vw;
     box-shadow: nset 7px 8px 16px 0 rgba(66, 198, 88, 0.2), 0 6px 20px 0 rgba(201, 153, 50, 0.19);
 }
 
 .item span {
-    /* display: flex; */
+    display: flex;
     justify-items: center;
-    padding: 75px;
+    padding: 67px;
 }
 
 .item {
 
-    border: 9mm ridge rgba(211, 220, 50, .6);
+    border: 13mm ridge rgba(211, 220, 50, .6);
+    /* height: 54vw; */
 }
 
 .item img {
-    margin: 45px 395px;
-    width: 11vw;
-    padding: 6px 242px;
+    margin: 18px 547px;
+    width: 7vw;
+    padding: 2px 369px;
 }
 
 /* footer part work */
@@ -122,7 +123,9 @@ nav {
 
 .footer1 {
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+    gap: 144px;
 }
 
 
@@ -187,14 +190,12 @@ nav {
         position: relative;
         left: 20px;
         /* flex-direction: row; */
-        gap: 315vw;;
+        gap: 315vw;
+        ;
         background-color: white;
         /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
 
     }
-
-
-     
 
     .item {
         width: 83%;
@@ -204,7 +205,7 @@ nav {
 
     .box {
         padding: 352px;
-        
+
         height: 47vh;
     }
 
@@ -223,8 +224,8 @@ nav {
         margin-left: 237px;
     }
 
-    .item-lang1{
-        margin-left:  71vh;
+    .item-lang1 {
+        margin-left: 71vh;
         padding: 23px 215px;
         font-size: 5vh;
         width: 164vw;
@@ -241,10 +242,32 @@ nav {
         justify-content: center;
         align-items: center;
     }
+
     .full {
-       width:  251vw;
+        width: 251vw;
     }
-}   
 
+    .footer1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 2054vw;
+        ;
+    }
 
+    .full {
+        margin-left: 102px;
+        padding: 10px 245px;
+    }
 
+    .full p {
+        width: 273vw;
+        /* heigt: 14vw; */
+        font-family: sans-serif;
+    }
+
+    .box {
+        padding: 45px 194px;
+        height: 47vh;
+    }
+}
