@@ -168,7 +168,7 @@ nav {
         gap: 20px;
         position: relative;
         display: grid;
-        padding: 14px 19px;
+        padding: 14px 15px;
     }
 
 
@@ -190,8 +190,7 @@ nav {
         position: relative;
         left: 20px;
         /* flex-direction: row; */
-        gap: 315vw;
-        ;
+        gap: 409vw;
         background-color: white;
         /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
 
@@ -228,7 +227,7 @@ nav {
         margin-left: 71vh;
         padding: 23px 215px;
         font-size: 5vh;
-        width: 164vw;
+        width: 239vw;
         font-size: 46px;
     }
 
@@ -256,8 +255,8 @@ nav {
     }
 
     .full {
-        margin-left: 102px;
-        padding: 10px 245px;
+        margin-left: 254px;
+        padding: 10px 445px;
     }
 
     .full p {
@@ -269,5 +268,6 @@ nav {
     .box {
         padding: 45px 194px;
         height: 47vh;
+        margin-left: 115px;
     }
 }
