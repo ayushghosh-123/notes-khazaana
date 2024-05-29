@@ -1,9 +1,9 @@
 /* header */
 nav {
     position: relative;
-    left: 20px;
+    left: 20%;
     /* flex-direction: row; */
-    gap: 93vw;
+    gap: 488%;
     background-color: white;
     /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
     width: auto;
@@ -18,7 +18,7 @@ nav {
 }
 
 .logo img {
-    height: 15vh;
+    height: 30%;
     position: relative;
 }
 
@@ -68,18 +68,17 @@ nav {
     background-color: rgb(183, 204, 0);
     border: none;
     color: white;
-    padding: 10px 144px;
+    padding: 3% 10%;
     margin-bottom: 10px;
     text-align: center;
     text-decoration: none;
     align-items: center;
-
     display: inline-flex;
-    margin-left: 2vw;
+    margin-left: 11%;
     gap: 15px;
-    font-size: 71px;
-    border-radius: 7px;
-    width: 5vw;
+    font-size: 358%;
+    border-radius: 13px;
+    width: 4vw;
     height: 2vw;
     box-shadow: nset 7px 8px 16px 0 rgba(66, 198, 88, 0.2), 0 6px 20px 0 rgba(201, 153, 50, 0.19);
 }
@@ -87,29 +86,31 @@ nav {
 .item span {
     display: flex;
     justify-items: center;
-    padding: 67px;
+    padding: 4vw;;
 }
 
 .item {
 
     border: 13mm ridge rgba(211, 220, 50, .6);
+    height: 64vw;
     /* height: 54vw; */
 }
 
 .item img {
     margin: 18px 547px;
-    width: 7vw;
+    width: 20vw;
     padding: 2px 369px;
 }
 
-/* footer part work */
+footer part work
 .full {
     /* background-image: url(https://t3.ftcdn.net/jpg/05/00/76/76/360_F_500767658_mtWlGY0Nbz32SCyZvPfWyu4OxBpeYMjA.jpg); */
     /* background-repeat: no-repeat; */
-    /* background-color: #00ffff52; */
+    /* background-color: #00ffff52;
     color: black;
-    padding: 205px;
-    font-size: 45px;
+    padding-left: 10vw;
+    margin-right: 5vw;
+    font-size: 55px;
 }
 
 .full h1 {
@@ -120,13 +121,13 @@ nav {
     text-align: center;
 }
 
-
 .footer1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 144px;
-}
+    gap: 320vw;
+    position: relative;
+} 
 
 
 
@@ -161,6 +162,13 @@ nav {
 .box p {
     text-align: center;
 }
+/* 
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap : 8vw;
+} */ 
 
 @media (max-width: 859px) {
     .grid {
@@ -271,3 +279,10 @@ nav {
         margin-left: 115px;
     }
 }
+
+/* @media (min-width:859) {  
+    nav{
+        position:relative;
+        gap: 345vw;
+    }
+} */
