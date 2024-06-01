@@ -1,9 +1,9 @@
 /* header */
 nav {
     position: relative;
-    left: 20%;
+    left: 1vw;
     /* flex-direction: row; */
-    gap: 488%;
+    gap: 26vw;
     background-color: white;
     /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
     width: auto;
@@ -18,7 +18,7 @@ nav {
 }
 
 .logo img {
-    height: 30%;
+    height: 40%;
     position: relative;
 }
 
@@ -46,8 +46,8 @@ nav {
 
 /* main part */
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
     height: 64vw;
 
@@ -61,14 +61,14 @@ nav {
     font-weight: 700;
     text-align: center;
     padding: 55px;
-    font-size: 53px;
+    font-size: 536%;
 }
 
 .button {
     background-color: rgb(183, 204, 0);
     border: none;
     color: white;
-    padding: 3% 10%;
+    padding: 3% 7%;
     margin-bottom: 10px;
     text-align: center;
     text-decoration: none;
@@ -76,7 +76,7 @@ nav {
     display: inline-flex;
     margin-left: 11%;
     gap: 15px;
-    font-size: 358%;
+    font-size: 528%;
     border-radius: 13px;
     width: 4vw;
     height: 2vw;
@@ -92,21 +92,21 @@ nav {
 .item {
 
     border: 13mm ridge rgba(211, 220, 50, .6);
-    height: 64vw;
+    height:  40vw;
     /* height: 54vw; */
 }
 
 .item img {
-    margin: 18px 547px;
-    width: 20vw;
-    padding: 2px 369px;
+    margin: 2vw 33vw;
+    width: 13vw;
+    padding: 0vw 10vw;;
 }
 
 footer part work
 .full {
-    /* background-image: url(https://t3.ftcdn.net/jpg/05/00/76/76/360_F_500767658_mtWlGY0Nbz32SCyZvPfWyu4OxBpeYMjA.jpg); */
-    /* background-repeat: no-repeat; */
-    /* background-color: #00ffff52;
+    background-image: url(https://t3.ftcdn.net/jpg/05/00/76/76/360_F_500767658_mtWlGY0Nbz32SCyZvPfWyu4OxBpeYMjA.jpg); 
+    background-repeat: no-repeat; 
+     background-color: #00ffff52;
     color: black;
     padding-left: 10vw;
     margin-right: 5vw;
@@ -132,7 +132,7 @@ footer part work
 
 
 .box {
-    /* background-color: #00ffff52; */
+    background-color: #00ffff52;
     color: black;
     padding: 220px;
     display: inline-block;
@@ -162,13 +162,13 @@ footer part work
 .box p {
     text-align: center;
 }
-/* 
+ 
 footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap : 8vw;
-} */ 
+} 
 
 @media (max-width: 859px) {
     .grid {
