@@ -23,7 +23,7 @@ html,body {
   
   .logo img {
       height: 7vw;
-      width: 8vw;
+      width: 10vw;
       position: relative;
   }
   
@@ -146,16 +146,17 @@ html,body {
             font-size: 1vw;
     }
       .logo img {
-          height: 15vh;
+          height: 20vw;
+          width: 30vw;
           position: relative;
           display: flex;
       }
   
       nav {
           position: relative;
-          left: 7vw;
+          /* left: 4vw; */
           flex-direction: row;
-          gap: 335vw;
+          gap: 322%;
           background-color: white;
           
   
@@ -164,7 +165,7 @@ html,body {
   
       .item {
           width:  350vw;
-          height: 90vh;
+          height: 200vw;
           padding: 14px 19px;
       }
   
@@ -190,7 +191,7 @@ html,body {
       }
   
       .item-lang1 {
-          margin-left: 95vw;
+          margin-left: 50vw;
           padding: 5% 3%;
           /* font-size: 5vh; */
           width: 239vw;
@@ -198,7 +199,7 @@ html,body {
       }
   
       .item img {
-          margin-left: 140vw;
+          margin-left: 102vw;
           width: 48vw;
           font-size: 35vw;
           padding: 2% 15%;
