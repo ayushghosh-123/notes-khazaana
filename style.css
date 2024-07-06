@@ -23,6 +23,15 @@ nav {
 
 }
 
+.btn{
+    padding: 4vh;
+    cursor: pointer;
+    background-color: #d5d540b8;
+    color: white;
+    border: 2px solid white;
+    border-radius: 1vh;
+    font-size: 2vh;
+}
 .logo img {
     height: 7vw;
     width: 10vw;
@@ -110,7 +119,7 @@ nav {
     font-weight: 700vw;
     text-align: center;
     padding: 55px;
-    font-size: 8vw;
+    font-size: 6vw;
 }
 
 .button {
