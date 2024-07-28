@@ -37,6 +37,10 @@ nav {
     border-radius: 1vh;
     font-size: 2vh;
 }
+.btn a{
+    text-decoration: none;
+    color:white;
+}
 .logo img {
     height: 7vw;
     width: 10vw;
