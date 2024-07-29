@@ -8,20 +8,15 @@ body {
     padding: 0;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-/* header */
 nav {
     position: relative;
     left: 1vw;
     flex-direction: row;
     gap: 60%;
     background-color: white;
-    /* background-image: url(https://elementor.com/marketing/wp-content/uploads/sites/9/2021/08/1200_628-1.png); */
     width: auto;
     height: 15vh;
     background-position: center;
-
-    /* background-size: cover */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -32,14 +27,13 @@ nav {
     padding: 4vh;
     cursor: pointer;
     background-color: #d5d540b8;
-    color: white;
     border: 2px solid white;
     border-radius: 1vh;
     font-size: 2vh;
 }
 .btn a{
     text-decoration: none;
-    color:white;
+    color: black;
 }
 .logo img {
     height: 7vw;
@@ -73,43 +67,6 @@ nav {
     font-size: 1vw;
 }
 
-/* .menu-btn {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.menu {
-    display: flex;
-    flex-direction: column;
-    background-color: #333;
-    position: absolute;
-    top: 50px;
-    right: 20px;
-    border-radius: 5px;
-    overflow: hidden;
-}*/
-
-/* .menu a {
-    color: black;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
- } */
-/*
-.menu a:hover {
-    background-color: #cd1010;
-}
-
-.hidden {
-    display: none;
-} */
-
-
 /* main part */
 .grid {
     display: flex;
@@ -119,8 +76,6 @@ nav {
     height: 64vw;
 
 }
-
-
 
 /* item lang ka chis */
 
