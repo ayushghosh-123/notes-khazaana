@@ -1,8 +1,6 @@
-// document.addEventListener('DOMContentLoaded', (event) => {
-//     const menuButton = document.getElementById('menu-btn');
-//     const menu = document.getElementById('menu');
+function toggleMenu() {
+    var navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle("open");
+}
 
-//     menuButton.addEventListener('click', () => {
-//         menu.classList.toggle('hidden');
-//     });
-// });
+

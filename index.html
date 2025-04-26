@@ -11,19 +11,31 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="https://study.com/images/plans/student.png" alt="">
+                <img src="https://study.com/images/plans/student.png" alt="Logo">
             </div>
-            <div class="right">
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776; <!-- Hamburger Icon -->
+            </div>
+            <div class="right" id="nav-links">
                 <ul>
-                    <button class="btn">
-                        <li><a href="https://linktr.ee/Ayush_3084">☰MENU</a>
-                        </li>
-                    </button>
+                    <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
+                    <li><a href="#contactus" onclick="toggleMenu()">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
-
+        
     </header>
+    <div class="hero-section">
+        <div class="hero-right">
+            <h1>Unlock Your Learning Potential!</h1>
+            <p>Access comprehensive class notes, video lectures, and resources all in one convenient place. Stay organized, ace your exams, and elevate your understanding.</p>
+            <p>Whether you're looking for detailed syllabus information, previous year question papers (PYQP), or a platform to upload your own study materials, you've come to the right place.</p>
+            </div>
+        <div class="hero-left">
+            <img src="./contact/image2.jpg" alt="Education and Learning">
+        </div>
+    </div>
     <main>
         <section>
             <div class="grid">
@@ -112,7 +124,7 @@
                     <div class="item-lang1">computer Architecture</div>
                     <span>
                         <a href="https://youtube.com/playlist?list=PLxCzCOWd7aiHMonh3G6QNKq53C6oNXGrX&si=b71wmF8Bm12iA8pX"
-                            class="button" targetz><b>Video</b></a>
+                            class="button" target="_blank"><b>Video</b></a>
                         <a href="https://drive.google.com/drive/folders/1vgF6WjWkEdICsRQcrJ9CfHvOivAlw1ER?usp=sharing"
                             class="button" target="_blank"><b>Notes</b></a>
                         <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
@@ -178,7 +190,7 @@
                     </span>
                 </div>
                 <div class="item">
-                    <img src="https://static.javatpoint.com/fullformpages/images/dbms-full-form2.png"
+                    <img src="./contact/Dbms.jpg"
                         alt="">
                     <div class="item-lang1">DBMS</div>
                     <span>
@@ -214,7 +226,7 @@
                     </span>
                 </div>
                 <div class="item">
-                    <img src="https://banner2.cleanpng.com/20180330/tzw/kisspng-shell-script-command-line-interface-unix-linux-5abe15e1c625b7.3528720615224068818116.jpg"
+                    <img src="./contact/unix shell.png"
                         alt="">
                     <div class="item-lang1">Unix & Shell</div>
                     <span>
@@ -288,6 +300,14 @@
             </div>
         </section>
     </main>
+    <footer>
+        <div id="about">
+            <p>
+                
+            </p>
+        </div>
+        <div id="contactus"></div>
+    </footer>
 </body>
 
 </html>
