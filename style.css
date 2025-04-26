@@ -416,7 +416,10 @@ footer {
         width: 100%;
         background-color: #222;
         display: none; /* Hide by default */
+        justify-content: center;
+        align-items: center;
     }
+
 
     .right ul {
         flex-direction: column;
