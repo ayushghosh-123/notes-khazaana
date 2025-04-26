@@ -1,315 +1,597 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My friendly web page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My friendly web page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <div class="logo">
-                <a href="#home">
-                    <img src="https://study.com/images/plans/student.png" alt="Logo">
-                </a>
-                
-            </div>
-            <div class="menu-icon" onclick="toggleMenu()">
-                &#9776; <!-- Hamburger Icon -->
-            </div>
-            <div class="right" id="nav-links">
-                <ul class="side-bar">
-                    <li><a href="#home" >Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contactus">Contact Us</a></li>
-                </ul>
-            </div>
-        </nav> 
+      <nav>
+        <div class="logo">
+          <a href="#home">
+            <img src="https://study.com/images/plans/student.png" alt="Logo" />
+          </a>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+          &#9776;
+          <!-- Hamburger Icon -->
+        </div>
+        <div class="right" id="nav-links">
+          <ul class="side-bar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <div class="hero-section">
-        <div class="hero-right">
-            <h1>Unlock Your Learning Potential!</h1>
-            <p>Access class notes, video lectures, resources, syllabus, and PYQP in one place to ace exams and upload your own study materials.</p>
-            </div>
-        <div class="hero-left">
-            <img src="./contact/image2.jpg" alt="Education and Learning">
-        </div>
+      <div class="hero-right">
+        <h1>Unlock Your Learning Potential!</h1>
+        <p>
+          Access class notes, video lectures, resources, syllabus, and PYQP in
+          one place to ace exams and upload your own study materials.
+        </p>
+      </div>
+      <div class="hero-left">
+        <img src="./contact/image2.jpg" alt="Education and Learning" />
+      </div>
     </div>
     <main>
-        <section>
-            <div class="grid">
-                <div class="item">
-                    <img src="contact/course2.png" alt="">
-                    <div class="item-lang1">Course Details</div>
-                    <span>
-                        <a href="https://drive.google.com/drive/folders/1QLo2W0_9opkdUbs28m23rhQa6vIkVaI5?usp=drive_link" class="button"><b>Syllabus</b></a>
-                        <a href="https://drive.google.com/drive/folders/1ha_8p-Q2HOErB4TVmucgOs_4OybLzjHn?usp=drive_link"
-                            class="button" target="_blank"><b>PYQP</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="data:image/jpeg;base64,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"
-                        alt="image-1">
-                    <div class="item-lang1">C Programing</div>
-                    <span>
-                        <a href="https://youtube.com/playlist?list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR&si=OrJZpvAd9V3LHrf7" class="button"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1yJC03Bvs_8yPNY3uD3R6WRR4BuWS1Rxd?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://www.logodesign.net/logo-new/colorful-electronics-circuit-and-brain-9638ld.png?nwm=1&nws=1&industry=electronics&txt_keyword=All"
-                        alt="">
-                    <div class="item-lang1">Digital Electronics</div>
-                    <span>
-                        <a href="https://youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm&si=3zlNeFs7UHrYbDbr" class="button"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1wk-_081Ep9p7w2InpYgEC67DinExTB4R?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://play-lh.googleusercontent.com/tA7DXEhmrRlEVyfDwUjgrhbEqd7hBg4ODNvn0AsUpkHguLbyB8F2vE8EkyVVO3BtG38F"
-                        alt="">
-                    <div class="item-lang1">Communication English</div>
-                    <span>
-                        <a href="" class="button"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/15iZ1l434ecrNtUnnBtnGLkUr4FMBSwVN?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://t3.ftcdn.net/jpg/05/51/43/56/360_F_551435602_v0rxhHEIgbQNWozIjcgJOR2Nmp1SINMV.jpg"
-                        alt="">
-                    <div class="item-lang1">Math</div>
-                    <span>
-                        <a href="https://youtube.com/playlist?list=PLxyGaR3hEy3gUC61DuKdmlvQ6Ir2jJgj1&si=ODlOZJgYLGMHNLnK"
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1DmvcF_Wh1Ya-N3mKSxZAZ-DDziNOrA4j?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
-                        alt="">
-                    <div class="item-lang1"> Python</div>
-                    <span>
-                        <a href="https://youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg&si=lLkLZYX1osbcX6p3"
-                            class="button" target="_blank" href=""><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1YMgpZ0G5TWMEzSmF0PZ4Z1QtWGW4dHu2?usp=drive_link"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://w7.pngwing.com/pngs/580/809/png-transparent-data-structure-logo-brand-data-structure-blue-text-logo.png"
-                        alt="DSA">
-                    <div class="item-lang1"> DSA</div>
-                    <span>
-                        <a href="https://youtube.com/playlist?list=PLG9aCp4uE-s0j5Er7XarVwb2Vl-s0z-OJ&si=QKfkFLh3z-cem141"
-                            class="button" target="_blank" href=""><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1suuQ-lRG6s77ioUSB314BpYvO4Xdx3wH?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://t3.ftcdn.net/jpg/05/06/52/84/360_F_506528493_P1NP532YG3kEDuBgcPv9paDAfoVoJfpi.jpg"
-                        alt="Architecture">
-                    <div class="item-lang1">computer Architecture</div>
-                    <span>
-                        <a href="https://youtube.com/playlist?list=PLxCzCOWd7aiHMonh3G6QNKq53C6oNXGrX&si=b71wmF8Bm12iA8pX"
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1vgF6WjWkEdICsRQcrJ9CfHvOivAlw1ER?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-
-                    <img src="https://static.vecteezy.com/system/resources/previews/011/492/550/non_2x/soft-skill-development-blue-gradient-concept-icon-in-demand-additional-skill-abstract-idea-thin-line-illustration-time-management-isolated-outline-drawing-vector.jpg"
-                        alt="SSD">
-                    <div class="item-lang1">SSD</div>
-                    <span>
-                        <a href="" class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1vgF6WjWkEdICsRQcrJ9CfHvOivAlw1ER?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item"><img src="https://c8.alamy.com/comp/2CFJA0C/java-programming-2CFJA0C.jpg" alt="">
-                    <div class="item-lang1">JAVA</div>
-                    <span>
-                        <a href="https://youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q&si=fnXnDJWO4Hsu3BZG"
-                            class="button"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1DzLquBoZGPHxtCrQXnqvXo-5rSMpe2DQ?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://png.pngtree.com/png-clipart/20230925/original/pngtree-icon-of-logical-reasoning-a-minimalist-personality-icon-in-monochrome-suitable-png-image_12687782.png"
-                        alt="">
-                    <div class="item-lang1">Logic Applitude</div>
-                    <span>
-                        <a href="https://youtube.com/playlist?list=PL4t_secZTPn59VVBODG4IuLzLZ21IRwCZ&si=0Bo-lDb8-zmfIydh"
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1NZmyS6sLn56noy8Dz3mpIJl-g4knXDar?usp=drive_link-"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://esm.com.my/environmentalscience/wp-content/uploads/sites/10/2017/03/logo-esm-contact-us-183x160.png"
-                        alt="">
-                    <div class="item-lang1">EVS</div>
-                    <span>
-                        <a href="https://youtube.com/playlist?list=PLJyab0VQDBGW-xtJIWbQ4fiQDxkaf_-MT&si=nGwPiVUlT5u7V9n2"
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1RQortlUUMJGOZgtz7x8dSl98mEwiPT0G?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://w7.pngwing.com/pngs/829/771/png-transparent-ubuntu-logo-linux-operating-systems-linux-text-orange-logo-thumbnail.png"
-                        alt="">
-                    <div class="item-lang1">Operating System</div>
-                    <span>
-                        <a href="https://youtube.com/playlist?list=PLG9aCp4uE-s17rFjWM8KchGlffXgOzzVP&si=K6Gynjy0IrvnH6pM"
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1xyuy8EdC3il90mA4m8MORuSpEL0GXNNL?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="./contact/Dbms.jpg"
-                        alt="">
-                    <div class="item-lang1">DBMS</div>
-                    <span>
-                        <a href="https://youtube.com/playlist?list=PLPvaSRcEQh4kfVIyezAQu9Mvj5FBk_OEN&si=utUg_oHtm0R_Ayz1"
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1Sl8nQGo3DO59vhUuxM63Y2m1sopJQREx?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://w1.pngwing.com/pngs/70/795/png-transparent-internet-logo-computer-network-computer-network-diagram-telecommunications-network-networking-hardware-user-local-area-network-management.png"
-                        alt="">
-                    <div class="item-lang1">Networks </div>
-                    <span>
-                        <a href=""
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1bED7YEEDYybHJiaPdWnnjOQFRWy1D124?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://cdn3.vectorstock.com/i/1000x1000/23/47/network-security-vector-45422347.jpg"
-                        alt="">
-                    <div class="item-lang1">Networks & Security</div>
-                    <span>
-                        <a href=""
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1bED7YEEDYybHJiaPdWnnjOQFRWy1D124?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="./contact/unix shell.png"
-                        alt="">
-                    <div class="item-lang1">Unix & Shell</div>
-                    <span>
-                        <a href=""
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1xUS04GulDA07iOWC3Xa81ZjXK0pkNO-K?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://iretiayo.github.io/FAI_2020/imgs/logo.png"
-                        alt="">
-                    <div class="item-lang1">Fundamental AI</div>
-                    <span>
-                        <a href=""
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1tZzIh1ArX9e_tcg9TSHoNoIqcMWcoWFb?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://s.tmimgcdn.com/scr/1200x750/186900/modern-web-logo-design-template_186934-original.jpg"
-                        alt="">
-                    <div class="item-lang1">Web Technology</div>
-                    <span>
-                        <a href=""
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1GLQkaD3EnPAahm7GxJP7O6InWYmRmY9V?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://e7.pngegg.com/pngimages/923/684/png-clipart-chatbot-artificial-intelligence-technology-machine-learning-technology-electronics-logo.png"
-                        alt="">
-                    <div class="item-lang1">Machine Learning</div>
-                    <span>
-                        <a href=""
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1IOIkvbn0355IbPZxcYNl8_nm4BwNpcpQ?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://toppng.com/uploads/preview/data-warehouse-data-mining-protect-protection-safety-data-warehouse-icon-11563059176t2ylnl0nze.png"
-                        alt="">
-                    <div class="item-lang1">Data Mining and Warehousing</div>
-                    <span>
-                        <a href=""
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href=""
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-                <div class="item">
-                    <img src="https://w7.pngwing.com/pngs/644/654/png-transparent-data-analysis-information-others-miscellaneous-logo-business.png"
-                        alt="">
-                    <div class="item-lang1">Statistic Analysis</div>
-                    <span>
-                        <a href="https://drive.google.com/drive/folders/1VQ_oWhwvkxNooAR3Rg4CvEYcWuf-9q20?usp=sharing"
-                            class="button" target="_blank"><b>Video</b></a>
-                        <a href="https://drive.google.com/drive/folders/1VQ_oWhwvkxNooAR3Rg4CvEYcWuf-9q20?usp=sharing"
-                            class="button" target="_blank"><b>Notes</b></a>
-                        <a href="https://forms.gle/nZvq6Qj1rUuvJr6S8" class="button" target="_blank"><b>Upload</b></a>
-                    </span>
-                </div>
-            </div>
-        </section>
+      <section>
+        <div class="grid">
+          <div class="item">
+            <img src="contact/course2.png" alt="" />
+            <div class="item-lang1">Course Details</div>
+            <span>
+              <a
+                href="https://drive.google.com/drive/folders/1QLo2W0_9opkdUbs28m23rhQa6vIkVaI5?usp=drive_link"
+                class="button"
+                ><b>Syllabus</b></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1ha_8p-Q2HOErB4TVmucgOs_4OybLzjHn?usp=drive_link"
+                class="button"
+                target="_blank"
+                ><b>PYQP</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt="image-1"
+            />
+            <div class="item-lang1">C Programing</div>
+            <span>
+              <a
+                href="https://youtube.com/playlist?list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR&si=OrJZpvAd9V3LHrf7"
+                class="button"
+                ><b>Video</b></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1yJC03Bvs_8yPNY3uD3R6WRR4BuWS1Rxd?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://www.logodesign.net/logo-new/colorful-electronics-circuit-and-brain-9638ld.png?nwm=1&nws=1&industry=electronics&txt_keyword=All"
+              alt=""
+            />
+            <div class="item-lang1">Digital Electronics</div>
+            <span>
+              <a
+                href="https://youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm&si=3zlNeFs7UHrYbDbr"
+                class="button"
+                ><b>Video</b></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1wk-_081Ep9p7w2InpYgEC67DinExTB4R?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://play-lh.googleusercontent.com/tA7DXEhmrRlEVyfDwUjgrhbEqd7hBg4ODNvn0AsUpkHguLbyB8F2vE8EkyVVO3BtG38F"
+              alt=""
+            />
+            <div class="item-lang1">Communication English</div>
+            <span>
+              <a href="" class="button"><b>Video</b></a>
+              <a
+                href="https://drive.google.com/drive/folders/15iZ1l434ecrNtUnnBtnGLkUr4FMBSwVN?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://t3.ftcdn.net/jpg/05/51/43/56/360_F_551435602_v0rxhHEIgbQNWozIjcgJOR2Nmp1SINMV.jpg"
+              alt=""
+            />
+            <div class="item-lang1">Math</div>
+            <span>
+              <a
+                href="https://youtube.com/playlist?list=PLxyGaR3hEy3gUC61DuKdmlvQ6Ir2jJgj1&si=ODlOZJgYLGMHNLnK"
+                class="button"
+                target="_blank"
+                ><b>Video</b></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1DmvcF_Wh1Ya-N3mKSxZAZ-DDziNOrA4j?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+              alt=""
+            />
+            <div class="item-lang1">Python</div>
+            <span>
+              <a
+                href="https://youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg&si=lLkLZYX1osbcX6p3"
+                class="button"
+                target="_blank"
+                href=""
+                ><b>Video</b></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1YMgpZ0G5TWMEzSmF0PZ4Z1QtWGW4dHu2?usp=drive_link"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://w7.pngwing.com/pngs/580/809/png-transparent-data-structure-logo-brand-data-structure-blue-text-logo.png"
+              alt="DSA"
+            />
+            <div class="item-lang1">DSA</div>
+            <span>
+              <a
+                href="https://youtube.com/playlist?list=PLG9aCp4uE-s0j5Er7XarVwb2Vl-s0z-OJ&si=QKfkFLh3z-cem141"
+                class="button"
+                target="_blank"
+                href=""
+                ><b>Video</b></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1suuQ-lRG6s77ioUSB314BpYvO4Xdx3wH?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://t3.ftcdn.net/jpg/05/06/52/84/360_F_506528493_P1NP532YG3kEDuBgcPv9paDAfoVoJfpi.jpg"
+              alt="Architecture"
+            />
+            <div class="item-lang1">computer Architecture</div>
+            <span>
+              <a
+                href="https://youtube.com/playlist?list=PLxCzCOWd7aiHMonh3G6QNKq53C6oNXGrX&si=b71wmF8Bm12iA8pX"
+                class="button"
+                target="_blank"
+                ><b>Video</b></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1vgF6WjWkEdICsRQcrJ9CfHvOivAlw1ER?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/011/492/550/non_2x/soft-skill-development-blue-gradient-concept-icon-in-demand-additional-skill-abstract-idea-thin-line-illustration-time-management-isolated-outline-drawing-vector.jpg"
+              alt="SSD"
+            />
+            <div class="item-lang1">SSD</div>
+            <span>
+              <a href="" class="button" target="_blank"><b>Video</b></a>
+              <a
+                href="https://drive.google.com/drive/folders/1vgF6WjWkEdICsRQcrJ9CfHvOivAlw1ER?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://c8.alamy.com/comp/2CFJA0C/java-programming-2CFJA0C.jpg"
+              alt=""
+            />
+            <div class="item-lang1">JAVA</div>
+            <span>
+              <a
+                href="https://youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q&si=fnXnDJWO4Hsu3BZG"
+                class="button"
+                ><b>Video</b></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1DzLquBoZGPHxtCrQXnqvXo-5rSMpe2DQ?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://png.pngtree.com/png-clipart/20230925/original/pngtree-icon-of-logical-reasoning-a-minimalist-personality-icon-in-monochrome-suitable-png-image_12687782.png"
+              alt=""
+            />
+            <div class="item-lang1">Logic Applitude</div>
+            <span>
+              <a
+                href="https://youtube.com/playlist?list=PL4t_secZTPn59VVBODG4IuLzLZ21IRwCZ&si=0Bo-lDb8-zmfIydh"
+                class="button"
+                target="_blank"
+                ><b>Video</b></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1NZmyS6sLn56noy8Dz3mpIJl-g4knXDar?usp=drive_link-"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://esm.com.my/environmentalscience/wp-content/uploads/sites/10/2017/03/logo-esm-contact-us-183x160.png"
+              alt=""
+            />
+            <div class="item-lang1">EVS</div>
+            <span>
+              <a
+                href="https://youtube.com/playlist?list=PLJyab0VQDBGW-xtJIWbQ4fiQDxkaf_-MT&si=nGwPiVUlT5u7V9n2"
+                class="button"
+                target="_blank"
+                ><b>Video</b></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1RQortlUUMJGOZgtz7x8dSl98mEwiPT0G?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://w7.pngwing.com/pngs/829/771/png-transparent-ubuntu-logo-linux-operating-systems-linux-text-orange-logo-thumbnail.png"
+              alt=""
+            />
+            <div class="item-lang1">Operating System</div>
+            <span>
+              <a
+                href="https://youtube.com/playlist?list=PLG9aCp4uE-s17rFjWM8KchGlffXgOzzVP&si=K6Gynjy0IrvnH6pM"
+                class="button"
+                target="_blank"
+                ><b>Video</b></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1xyuy8EdC3il90mA4m8MORuSpEL0GXNNL?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img src="./contact/Dbms.jpg" alt="" />
+            <div class="item-lang1">DBMS</div>
+            <span>
+              <a
+                href="https://youtube.com/playlist?list=PLPvaSRcEQh4kfVIyezAQu9Mvj5FBk_OEN&si=utUg_oHtm0R_Ayz1"
+                class="button"
+                target="_blank"
+                ><b>Video</b></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1Sl8nQGo3DO59vhUuxM63Y2m1sopJQREx?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://w1.pngwing.com/pngs/70/795/png-transparent-internet-logo-computer-network-computer-network-diagram-telecommunications-network-networking-hardware-user-local-area-network-management.png"
+              alt=""
+            />
+            <div class="item-lang1">Networks</div>
+            <span>
+              <a href="" class="button" target="_blank"><b>Video</b></a>
+              <a
+                href="https://drive.google.com/drive/folders/1bED7YEEDYybHJiaPdWnnjOQFRWy1D124?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://cdn3.vectorstock.com/i/1000x1000/23/47/network-security-vector-45422347.jpg"
+              alt=""
+            />
+            <div class="item-lang1">Networks & Security</div>
+            <span>
+              <a href="" class="button" target="_blank"><b>Video</b></a>
+              <a
+                href="https://drive.google.com/drive/folders/1bED7YEEDYybHJiaPdWnnjOQFRWy1D124?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img src="./contact/unix shell.png" alt="" />
+            <div class="item-lang1">Unix & Shell</div>
+            <span>
+              <a href="" class="button" target="_blank"><b>Video</b></a>
+              <a
+                href="https://drive.google.com/drive/folders/1xUS04GulDA07iOWC3Xa81ZjXK0pkNO-K?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://iretiayo.github.io/FAI_2020/imgs/logo.png"
+              alt=""
+            />
+            <div class="item-lang1">Fundamental AI</div>
+            <span>
+              <a href="" class="button" target="_blank"><b>Video</b></a>
+              <a
+                href="https://drive.google.com/drive/folders/1tZzIh1ArX9e_tcg9TSHoNoIqcMWcoWFb?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://s.tmimgcdn.com/scr/1200x750/186900/modern-web-logo-design-template_186934-original.jpg"
+              alt=""
+            />
+            <div class="item-lang1">Web Technology</div>
+            <span>
+              <a href="" class="button" target="_blank"><b>Video</b></a>
+              <a
+                href="https://drive.google.com/drive/folders/1GLQkaD3EnPAahm7GxJP7O6InWYmRmY9V?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://e7.pngegg.com/pngimages/923/684/png-clipart-chatbot-artificial-intelligence-technology-machine-learning-technology-electronics-logo.png"
+              alt=""
+            />
+            <div class="item-lang1">Machine Learning</div>
+            <span>
+              <a href="" class="button" target="_blank"><b>Video</b></a>
+              <a
+                href="https://drive.google.com/drive/folders/1IOIkvbn0355IbPZxcYNl8_nm4BwNpcpQ?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://toppng.com/uploads/preview/data-warehouse-data-mining-protect-protection-safety-data-warehouse-icon-11563059176t2ylnl0nze.png"
+              alt=""
+            />
+            <div class="item-lang1">Data Mining and Warehousing</div>
+            <span>
+              <a href="" class="button" target="_blank"><b>Video</b></a>
+              <a href="" class="button" target="_blank"><b>Notes</b></a>
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+          <div class="item">
+            <img
+              src="https://w7.pngwing.com/pngs/644/654/png-transparent-data-analysis-information-others-miscellaneous-logo-business.png"
+              alt=""
+            />
+            <div class="item-lang1">Statistic Analysis</div>
+            <span>
+              <a
+                href="https://drive.google.com/drive/folders/1VQ_oWhwvkxNooAR3Rg4CvEYcWuf-9q20?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Video</b></a
+              >
+              <a
+                href="https://drive.google.com/drive/folders/1VQ_oWhwvkxNooAR3Rg4CvEYcWuf-9q20?usp=sharing"
+                class="button"
+                target="_blank"
+                ><b>Notes</b></a
+              >
+              <a
+                href="https://forms.gle/nZvq6Qj1rUuvJr6S8"
+                class="button"
+                target="_blank"
+                ><b>Upload</b></a
+              >
+            </span>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <div id="about">
+      <div id="about">
+        <p>
             <p>
-                
-            </p>
-        </div>
-        <div id="contactus"></div>
+                Here the websites where help future genera to find their notes and all
+                details of all bachelor and computer apllicated students .
+              </p>
+        </p>
+      </div>
+      <div id="contactus">
+        
+      </div>
     </footer>
     <script src="sceript.js"></script>
-</body>
-
+  </body>
 </html>
